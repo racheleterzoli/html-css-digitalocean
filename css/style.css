@@ -1,0 +1,62 @@
+body{
+  font: 400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.sezionefissa{
+  height:100px;
+  position: fixed;
+  width:100%;
+  z-index: 1;
+  background-color: white;
+}
+.sfondopesci{
+padding-top: 150px;
+  height:700px;
+  background-color:blue;
+  width:100%;
+}
+.testosx{
+  height: 500px;
+
+  border:1px solid black;
+}
+.testosfw{
+  height: 500px;
+  background-color: white;
+  border:1px solid black;
+
+}
+.sezionegrigia{
+  height:300px;
+  background-color: #f3f5f9;
+width: 100%;
+}
+.bianco{
+  width: 100%;
+  height:800px;
+  background-color: white;
+}
+.grigio{
+  height:800px;
+}
+.piccolo{
+  height:400px;
+}
+.bluetransition{
+  height:400px;
+  background-color:blue;
+}
+.chiaro{
+  height:200px;
+  background-color:lightblue;
+    width:100%;
+}
+.scuro{
+  height:600px;
+  width:100%;
+  background-color:#031c4e;
+}
+@media screen and (max-width: 991px) {
+  body {
+    background-color:red;
+  }
+}
