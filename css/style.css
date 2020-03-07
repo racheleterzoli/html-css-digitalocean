@@ -12,7 +12,7 @@ body{
   background-color: white;
 }
 .sfondopesci{
-/* padding-top: 150px;
+  /* padding-top: 150px;
   height:700px;
   background-color:blue;
   width:100%; */
@@ -23,30 +23,39 @@ body{
 }
 .testosx{
   /* height: 500px;
-background-color: red; */
-height:500px;
+  background-color: red; */
+  height:500px;
+  color:white;
+  background-color:transparent;
 
 
+}
+.testosx h1{
+  font-size: 64px;
 }
 .testosfw{
   /* height: 500px;
   background-color: white; */
-height:450px;
-background-color: white;
-    padding: 32px;
+  height:450px;
+  background-color: white;
+  padding: 32px;
+  text-align:center;
 
 }
 .sezionegrigia{
+  text-align: center;
   height:300px;
   background-color: #f3f5f9;
-width: 100%;
+  width: 100%;
 }
 .bianco{
+  text-align: center;
   width: 100%;
   height:800px;
   background-color: white;
 }
 .grigio{
+  display: inline-block;
   height:800px;
 }
 .piccolo{
@@ -59,7 +68,7 @@ width: 100%;
 .chiaro{
   height:200px;
   background-color:lightblue;
-    width:100%;
+  width:100%;
 }
 .scuro{
   height:600px;
@@ -67,22 +76,194 @@ width: 100%;
   background-color:#031c4e;
 }
 /* @media screen and (max-width: 991px) {
-  .testosx{
-    height:250px;
-  }
-  .testosfw{
-    height:250px;
-  }
+.testosx{
+height:250px;
+}
+.testosfw{
+height:250px;
+}
 } */
 .listamenu{
-margin-left: 0;
+  margin-left: 0;
 }
 .listamenu li a{
   color:#031b4e;
   font-size: 16px;
 }
-.bottone{
+#bottone{
   color:#0069ff;
   background-color:white;
   border-radius: 5px;
+  border:1px solid #0069ff;
+}
+.testosfw h2{
+  color:#0069ff;
+}
+.riquadro{
+  height: 290px;
+  width: 100%;
+
+}
+.email{
+  font-size: 30px;
+  text-align: left;
+  color:#f1f1f1;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  height:19%;
+  border: 1px solid #f1f1f1;
+}
+.psw{
+  font-size: 30px;
+  text-align: left;
+  color:#f1f1f1;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  height:19%;
+  border: 1px solid #f1f1f1;
+}
+.account{
+  padding-top:7px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  color:white;
+  height:15%;
+  background-color:#0069ff;
+  width: 100%;
+}
+.google{
+  padding-top:10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  height:19%;
+  border: 1px solid #f1f1f1;
+}
+.git{
+  height: 70px;
+
+  width:auto;
+}
+.immagini{
+  height:80px;
+}
+.immaginip{
+  height: 60px;
+  padding-top: 20px;
+}
+.immaginine{
+  padding-top:80px;
+}
+.google img{
+  float: left;
+  height:80%;
+  width: auto;
+}
+#sottolineato{
+  color:#0069ff;
+  text-decoration: underline;
+}
+#testino{
+  padding-top:50px;
+}
+#blu{
+  font-size:10px;
+  color:blue;
+}
+.bianco h1{
+  font-size:36px;
+}
+.testow{
+  margin:auto;
+  font-size:25px;
+
+  width:80%;
+}
+.sezioni{
+  padding-top:50px;
+  margin:auto;
+  width:80%;
+  height:80%;
+
+
+}
+.testoriga{
+
+  height:450px;
+}
+.primo{
+  font-size: 20px;
+
+  height: 225px;
+}
+.secondo{
+
+  height:225px;
+}
+.terzo{
+
+  height:225px;
+}
+.quarto{
+
+  height:225px;
+}
+.testoriga ul li {
+
+  list-style: none;
+}
+.testoriga{
+  padding-top:80px;
+  text-align: left;
+  font-size: 25px;
+
+}
+.spazio{
+  height:200px;
+  border-left:1px solid black;
+}
+.sezionegrigia h1{
+  line-height:45px;
+  font-size: 36px;
+}
+.sezionegrigia p{
+  font-size: 20px;
+}
+.bianco h1{
+  line-height:45px;
+  font-size: 36px;
+}
+.colonnine{
+  padding-top: 50px;
+  height:100%;
+  width:80%;
+  margin: auto;
+}
+.uno{
+  height:250px;
+  width: auto;
+}
+.due{
+  height:250px;
+  width: auto;
+}
+.tre{
+  height:250px;
+  width: auto;
+}
+.colonnine h1{
+font-size: 18px;
+line-height: 27px;
+}
+.colonnine p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.bianchino{
+  height: 400px;
+  width: 500px;
+  background-color:white;
+  margin:auto;
+  margin-top:150px;
 }
