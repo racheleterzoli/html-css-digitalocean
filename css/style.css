@@ -260,9 +260,7 @@ line-height: 27px;
   line-height: 24px;
 }
 .bianchino{
-  height: 400px;
-  width: 500px;
-  background-color:white;
+  
   margin:auto;
   margin-top:150px;
 }
@@ -323,4 +321,22 @@ color:white;
 .azzurro{
 float: right;
   color:#00d7d2;
+}
+.bluu{
+  height: 200px;
+  width: auto;
+  background-color: red;
+  border:1px solid black;
+}
+.listablu ul lh{
+  color:white;
+}
+.listablu ul li{
+  list-style: none;
+  color:#ffffff;
+  opacity: 50%;
+
+}
+.listablu{
+  margin-top:100px;
 }
