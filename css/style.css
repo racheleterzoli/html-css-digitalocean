@@ -60,12 +60,13 @@ body{
   height:400px;
 }
 .bluetransition{
-  height:400px;
-  background-color:blue;
+  height:500px;
+  background-color:#031b4e;
+  text-align: center;
 }
 .chiaro{
   height:200px;
-  background-color:lightblue;
+  background-color:#0069ff;
   width:100%;
 }
 .scuro{
@@ -270,4 +271,56 @@ line-height: 27px;
   line-height: 45px;
   color:#031b4e;
 
+}
+.chiaro h1{
+  color:white;
+  font-size: 30px;
+  line-height: 45px;
+}
+.chiaro{
+  text-align: center;
+  padding-top:25px;
+}
+#pulsante{
+  background-color:white;
+  color:#0069ff;
+  border-radius:5px;
+  border: none;
+  height:40px;
+}
+
+.bluetransition h1{
+  color:white;
+  font-size: 36px;
+  line-height: 45px;
+}
+.riga{
+color:white;
+  border-bottom:1px solid white;
+  height:35px;
+  font-size: 15px;
+  line-height: 19.5px;
+}
+.rigano{
+  border-bottom:0px;
+}
+.giu{
+
+  margin-top:55px;
+}
+.bianchetto {
+  float: left;
+  width:50px;
+  margin-right:40px;
+}
+
+.grigino{
+  float: left;
+  margin-right:200px;
+  color:grey;
+}
+
+.azzurro{
+float: right;
+  color:#00d7d2;
 }
